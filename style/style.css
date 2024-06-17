@@ -71,3 +71,80 @@ body {
     margin: 0 auto;
     padding: 0;
 }
+/*1 block*/
+.section-shapka{
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+    position: relative;
+    background: url(../img/4.png);
+}
+.section-shapka .fon{
+    position: absolute;
+    width: 200px;
+}
+.section-shapka .container .navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.section-shapka .navbar .buton button{
+    color: #f87932;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 400;
+    letter-spacing: 4px;
+    height: 50px;
+}
+.section-shapka .navbar .buton-img button{
+    padding: 10px 30px;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 130px;
+}
+.section-shapka .cyprus{
+    display: flex;
+    margin-top: 130px;
+}
+.section-shapka .cyprus .text h1{
+    font-family: 'Merriweather';
+    font-size: 80px;
+    font-weight: 700;
+    margin: 1;
+    color: #f87932;
+}
+.section-shapka .cyprus .text h2{
+    color: #38bfa7;
+    font-family: 'Merriweather';
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 88px;
+}
+.section-shapka .container .txt .trip{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    width: 213px;
+    height: 62px;
+    background-color: #F87932;
+    padding-left: 10px;
+    letter-spacing: 5px;
+    border: none;
+}
+.section-shapka .container .cyprus .kubiki img {
+    height: 610px;
+    width: 610px;
+    margin-left: 100px;
+}
+.section-shapka .buton{
+    height: 50px;
+}
+
+/*2 block*/
