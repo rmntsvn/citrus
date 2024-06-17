@@ -71,7 +71,9 @@ body {
     margin: 0 auto;
     padding: 0;
 }
-/*1 block*/
+
+
+
 .section-shapka{
     background-size: cover;
     background-position: center;
@@ -147,4 +149,61 @@ body {
     height: 50px;
 }
 
-/*2 block*/
+
+.section-relax{
+    margin-top: 80px;
+    position: relative;
+}
+.section-relax .container .img{
+    background-image: url(../img/6.png);
+    width: 720px;
+    height: 600px;
+    position: absolute;
+    background-size: cover;
+    left: 120px;
+    bottom: 80px;
+}
+.section-relax .container{
+    display: flex;
+    justify-content: center;
+}
+.section-relax .one{
+    width: 50%;
+}
+.section-relax .two{
+    width: 50%;
+}
+.section-relax .container .two img{
+    width: 100%;
+}
+.section-relax .one h2{
+    font-size: 24px;
+    font-family: 'Lato';
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+.section-relax .one h3{
+    font-size: 60px;
+    font-family: 'Merriweather';
+    font-weight: 700;
+}
+.section-relax .one p{
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 300;
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    letter-spacing: 4px;
+}
+.section-relax .buton2 button{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    width: 213px;
+    height: 62px;
+    background-color: #F87932;
+    padding-left: 10px;
+    letter-spacing: 5px;
+}
