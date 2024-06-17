@@ -256,3 +256,114 @@ body {
 .section-life .container .kubs2 img{
     width: 0;
 }
+
+.section-trav .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 180px;
+}
+.section-trav .container .txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-trav .container .txt h4{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 50px;
+}
+.section-trav .container .txt h5{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+}
+.section-trav .container .txt p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    font-weight: 200;
+    font-size: 15px; 
+}
+.section-trav .container .txt img{
+    width: 200px;
+    margin-left: 500px;
+}
+.section-trav .container .photo{
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    grid-template-rows: repeat(2, 282px);
+    gap: 20px;
+    padding: 50px 0;
+}
+.section-trav .container .photo .foto:nth-child(1){
+    background-image: url(../img/Rectangle\ 79.png);
+    background-size: cover;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 1;
+}
+.section-trav .container .photo .foto:nth-child(2){
+    background-image: url(../img/Rectangle\ 82.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 2;
+}
+.section-trav .container .photo .foto:nth-child(3){
+    background-image: url(../img/Rectangle\ 81.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 1;
+    grid-column-end: 5;
+}
+.section-trav .container .photo .foto:nth-child(4){
+    background-image: url(../img/Rectangle\ 80.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 2;
+}
+.section-trav .container .photo .foto:nth-child(5){
+    background-image: url(../img/Rectangle\ 83.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+}
+.section-trav .container .photo .foto:nth-child(6){
+    background-image: url(../img/Rectangle\ 84.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-row-end: 3;
+}
+.section-trav .container .buton{
+    display: flex;
+    justify-content: center;
+}
+.section-trav .container .buton button{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    width: 213px;
+    height: 62px;
+    background-color: #F87932;
+    padding-left: 10px;
+    letter-spacing: 5px;
+}
