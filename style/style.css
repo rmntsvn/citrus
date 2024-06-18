@@ -367,3 +367,97 @@ body {
     padding-left: 10px;
     letter-spacing: 5px;
 }
+
+.section-turist{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)), url(../img/photo_2024-06-03_22-43-47.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 75px;
+}
+.section-turist .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FFFFFF;
+}
+.section-turist .container .road{
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.section-turist .container .welcome{
+    width: 157px;
+    height: 23px;
+    background: url(../img/Group\ 3\ \(1\).png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.section-turist .container .ulti{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 200;
+    color: #EEEEEE;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.section-turist .container .data{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.section-turist .container .data .upcom{
+    font-family: 'SedgwickAve';
+    font-size: 60px;
+    font-weight: 400;
+    color: #39BFA7;
+}
+.section-turist .container .data .card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    background: none;
+    border: none;
+}
+.section-turist .container .data .card .chislo{
+    font-family: 'SedgwickAve';
+    font-size: 70px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    margin-right: 10px;
+}
+.section-turist .container .data .card vv .mon{
+    font-family: 'SedgwickAve';
+    font-weight: 400;
+    font-size: 18px;
+    color: #969696;
+    margin: 0;
+}
+.section-turist .container .data .card vv .merop{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 30px;
+    color: #DDDDDD;
+    margin: 0;
+}
+.section-turist .container .buton{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    width: 213px;
+    height: 62px;
+    background-color: #F87932;
+    padding-left: 10px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
