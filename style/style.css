@@ -461,3 +461,71 @@ body {
     letter-spacing: 5px;
     margin-bottom: 20px;
 }
+
+.section-foot{
+    background: #151C21;
+    padding-top: 5%;
+    margin-top: 5%;
+}
+.section-foot .container .one{
+    display: flex;
+    margin-bottom: 5%;
+}
+.section-foot .container .one .logotip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-foot .container .one .logotip, .card{
+    width: 25%;
+}
+.section-foot .container .one .logotip img{
+    width: 40%;
+}
+.section-foot .container .one .card h5{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.section-foot .container .one .card p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.section-foot .container .one .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.section-foot .container hr{
+    border: 1px solid #414141;
+}
+.section-foot .container .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #BBBBBB;
+}
+.section-foot .container .two h5{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 5%;
+}
+.section-foot .container .two p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.section-foot .container .two .sska img{
+    width: 25%;
+    margin-left: 6%;
+}
