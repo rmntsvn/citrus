@@ -154,6 +154,8 @@ body {
     letter-spacing: 5px;
     border: none;
     margin-left: 20px;
+    
+    
 }
 
 
@@ -193,6 +195,7 @@ main .adventure .container {
     font-size: 24px;
     font-family: 'Lato';
     font-weight: 600;
+    margin-left: 20px;
 }
 
 .adventure .levo h2 {
@@ -480,12 +483,14 @@ main .adventure .btn2 button:hover {
     font-weight: 400;
     color: #39BFA7;
     margin-left: 180px;
+
+
 }
 .section-turist .container .data .card{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     background: none;
     border: none;
     width: 500px;
