@@ -83,16 +83,19 @@ body {
 }
 .section-shapka .fon{
     position: absolute;
-    width: 200px;
+    width: 220px;
 }
-.section-shapka .container .navbar{
+.section-shapka .container .navitbar{
     display: flex;
     justify-content: space-evenly;
     padding: 0;
+    width: 1050px;
+    margin-left: 100px;
+    
 }
-.section-shapka .navbar .buton button{
+.section-shapka .navitbar .buton button{
     color: #f87932;
-    padding: 10px 30px;
+    padding: 3px 20px;
     border: none;
     border-radius: 0px 0px 15px 15px;
     background-color: #FFFFFF;
@@ -102,7 +105,12 @@ body {
     letter-spacing: 4px;
     height: 50px;
 }
-.section-shapka .navbar .buton-img button{
+.section-shapka .navitbar button:hover{
+    height: 100px;
+    box-shadow: 0px 5px 10px 0px rgba(255, 255, 255) ;
+    transition: 0.6s;
+}
+.section-shapka .navitbar .buton-img button{
     padding: 10px 30px;
     border-radius: 0px 0px 15px 15px;
     border: none;
@@ -110,6 +118,9 @@ body {
     height: 100px;
     width: 130px;
 }
+
+
+
 .section-shapka .cyprus{
     display: flex;
     margin-top: 130px;
@@ -118,15 +129,18 @@ body {
     font-family: 'Merriweather';
     font-size: 80px;
     font-weight: 700;
-    margin: 1;
     color: #f87932;
+    color: #38bfa7;
+    margin-top: 70px;
+    margin-left: 20px;
 }
 .section-shapka .cyprus .text h2{
-    color: #38bfa7;
+    color: #f87932;
     font-family: 'Merriweather';
     font-size: 80px;
     font-weight: 700;
-    margin-bottom: 88px;
+    margin-bottom: 60px;
+    margin-left: 20px;
 }
 .section-shapka .container .txt .trip{
     font-family: 'Lato';
@@ -139,79 +153,107 @@ body {
     padding-left: 10px;
     letter-spacing: 5px;
     border: none;
+    margin-left: 20px;
 }
+
+
 .section-shapka .container .cyprus .kubiki img {
-    height: 610px;
-    width: 610px;
-    margin-left: 100px;
+    height: 650px;
+    width: 650px;
+    margin-left: 110px;
+    margin-top:  -60px;
 }
 .section-shapka .buton{
     height: 50px;
 }
+.section-shapka{
+    height: 1110px;
+}
 
 
-.section-relax{
-    margin-top: 80px;
-    position: relative;
+.adventure {
+    margin-top: 100px;
 }
-.section-relax .container .img{
-    background-image: url(../img/6.png);
-    width: 720px;
-    height: 600px;
-    position: absolute;
-    background-size: cover;
-    left: 120px;
-    bottom: 80px;
-}
-.section-relax .container{
+
+main .adventure .container {
     display: flex;
     justify-content: center;
 }
-.section-relax .one{
+
+.adventure .levo,
+.pravo {
     width: 50%;
 }
-.section-relax .two{
-    width: 50%;
-}
-.section-relax .container .two img{
+
+.adventure .container .pravo img {
     width: 100%;
 }
-.section-relax .one h2{
+
+.adventure .levo h4 {
     font-size: 24px;
     font-family: 'Lato';
-    font-weight: 300;
-    letter-spacing: 6px;
+    font-weight: 600;
 }
-.section-relax .one h3{
+
+.adventure .levo h2 {
     font-size: 60px;
     font-family: 'Merriweather';
-    font-weight: 700;
+    font-weight: 900;
 }
-.section-relax .one p{
+
+.adventure .levo p {
     font-size: 18px;
     font-family: 'Lato';
-    font-weight: 300;
+    letter-spacing: 3px;
+    font-weight: 600;
     width: 75%;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    letter-spacing: 4px;
+    margin-bottom: 30px;
+    margin-top: 8%;
 }
-.section-relax .buton2 button{
+
+main .adventure .btn2 button {
+    color: black;
+    padding: 16px 24px;
+    background-color: #ffffff;
+    font-size: 20px;
     font-family: 'Lato';
-    font-weight: 400;
-    font-size: 17px;
-    color: #FFFFFF;
-    width: 213px;
-    height: 62px;
-    background-color: #F87932;
-    padding-left: 10px;
-    letter-spacing: 5px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    border: 2px solid #333;
+    transition: 0.5s;
+    margin-top: 150px;
+    background: linear-gradient(to left, #F87932 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: bottom left;
+    transition: all .7s ease-out;
+}
+
+main .adventure .btn2 button:hover {
+    border: 2px solid #333;
+    background-position: bottom right;
+    color: #fff;
+    transition: 0.6s;
+}
+
+
+.adventure .levo .img {
+    background-image: url(../img/6.png);
+    background-size: cover;
+    height: 600px;
+    width: 720px;
+    position: absolute;
+    left: -200px;
+    bottom: 130px;
+}
+
+.adventure .container {
+    position: relative;
 }
 
 .section-life{
     background-image: url(../img/Mask.png);
     background-size: cover;
-    height: 900px;
+    height: 1150px;
     margin-top: 100px;
 }
 .section-life .container{
@@ -224,12 +266,12 @@ body {
     color: white;
     margin-top: 350px;
     text-align: center;
-    font-size: 50px;
+    font-size: 59px;
     font-family: 'Merriweather';
     font-weight: 700;
 }
 .section-life .container .text p{
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Lato';
     font-weight: 700;
     letter-spacing: 6px;
@@ -248,10 +290,10 @@ body {
 .section-life .container .kubs{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 240px;
 }
 .section-life .container .kubs img{
-    width: 70%;
+    width: 90%;
 }
 .section-life .container .kubs2 img{
     width: 0;
@@ -274,6 +316,7 @@ body {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 50px;
+    margin-left: 45px;
 }
 .section-trav .container .txt h5{
     display: flex;
@@ -287,18 +330,21 @@ body {
     justify-content: center;
     font-family: 'Lato';
     font-weight: 200;
-    font-size: 15px; 
+    font-size: 24px; 
 }
 .section-trav .container .txt img{
-    width: 200px;
-    margin-left: 500px;
+    width: 150px;
+    margin-left: 570px;
+    margin-top: 30px;
+    margin-bottom:30px;
 }
 .section-trav .container .photo{
     display: grid;
     grid-template-columns: repeat(4, 282px);
     grid-template-rows: repeat(2, 282px);
     gap: 20px;
-    padding: 50px 0;
+    padding: 40px 0;
+    padding-left: 100px;
 }
 .section-trav .container .photo .foto:nth-child(1){
     background-image: url(../img/Rectangle\ 79.png);
@@ -355,18 +401,33 @@ body {
 .section-trav .container .buton{
     display: flex;
     justify-content: center;
+    margin-left: 100px;
 }
 .section-trav .container .buton button{
+    color: black;
+    padding: 16px 24px;
+    background-color: #ffffff;
+    font-size: 20px;
     font-family: 'Lato';
-    font-weight: 400;
-    font-size: 17px;
-    color: #FFFFFF;
-    width: 213px;
-    height: 62px;
-    background-color: #F87932;
-    padding-left: 10px;
-    letter-spacing: 5px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    border: 2px solid #333;
+    transition: 0.5s;
+    margin-top: 50px;
+    background: linear-gradient(to left, #F87932 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: bottom left;
+    transition: all .7s ease-out;
 }
+
+.section-trav .container .buton button:hover {
+    border: 2px solid #333;
+    background-position: bottom right;
+    color: #fff;
+    transition: 0.6s;
+}
+
+
 
 .section-turist{
     background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.466)), url(../img/photo_2024-06-03_22-43-47.jpg);
@@ -418,6 +479,7 @@ body {
     font-size: 60px;
     font-weight: 400;
     color: #39BFA7;
+    margin-left: 180px;
 }
 .section-turist .container .data .card{
     display: flex;
@@ -426,7 +488,7 @@ body {
     margin-bottom: 30px;
     background: none;
     border: none;
-    width: 420px;
+    width: 500px;
 }
 .section-turist .container .data .card .chislo{
     font-family: 'SedgwickAve';
@@ -434,12 +496,12 @@ body {
     font-weight: 400;
     color: #FFFFFF;
     margin: 0;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 .section-turist .container .data .card vv .mon{
     font-family: 'SedgwickAve';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: #969696;
     margin: 0;
 }
@@ -461,6 +523,7 @@ body {
     padding-left: 10px;
     letter-spacing: 5px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .section-form .container{
@@ -558,18 +621,29 @@ body {
     width: 15px;
 }
 .section-form .container .buton{
+    color: black;
+    padding: 16px 24px;
+    background-color: #ffffff;
+    font-size: 20px;
     font-family: 'Lato';
-    font-weight: 400;
-    font-size: 17px;
-    color: #FFFFFF;
-    width: 213px;
-    height: 62px;
-    background-color: #F87932;
-    padding-left: 10px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    border: 2px solid #333;
+    transition: 0.5s;
+    margin-top: 50px;
+    background: linear-gradient(to left, #F87932 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: bottom left;
+    transition: all .7s ease-out;
 }
+
+.section-form .container .buton:hover {
+    border: 2px solid #333;
+    background-position: bottom right;
+    color: #fff;
+    transition: 0.6s;
+}
+
 
 .section-foot{
     background: #151C21;
@@ -584,6 +658,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10%;
 }
 .section-foot .container .one .logotip, .card{
     width: 25%;
@@ -606,11 +681,12 @@ body {
 .section-foot .container .one .card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: none;
     border: none;
+    margin-top: 3%;
+    margin-right: 10%;
 }
+
 .section-foot .container hr{
     border: 1px solid #414141;
 }
@@ -637,4 +713,298 @@ body {
 .section-foot .container .two .sska img{
     width: 25%;
     margin-left: 6%;
+}
+
+@media (max-width:420px){
+    .container{
+        width: 320px;
+    }
+    .section-shapka{
+        width: 320px;
+    }
+    header .section-shapka .fon img{
+        display: none;
+    }
+    .section-shapka .container .buton{
+        display: none;
+    }
+    .section-shapka .container .buton-img button{
+        background: none;
+        margin-right: 230px;
+    }
+    .section-shapka .cyprus .text h1{
+        font-size: 40px; 
+        margin-left: 20px; 
+        white-space: nowrap;
+    }
+    .section-shapka .cyprus .text h2{
+        font-size: 40px; 
+        margin-left: 20px; 
+        white-space: nowrap;
+        
+    }
+    .section-shapka .cyprus .txt .text .trip{
+        font-size: 10px;
+        width: 150px !important;
+        height: 40px !important;
+        margin-left: 20px;
+        margin-bottom: 100px;
+    }
+
+    header .container .cyprus .kubiki img{
+        width: 300px !important;
+        height: 300px !important; 
+        margin-left: 0px !important;
+    }
+
+    header .container .cyprus{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .adventure .levo h4 {
+        font-size: 12px;
+        margin-left: 70px;
+        text-align: center;
+    }
+
+    .adventure .levo h2 {
+        font-size: 30px;
+        margin-left: 70px;
+        text-align: center;
+    }
+
+    .adventure .levo p {
+        font-size: 10px;
+        width: 160%;
+        margin-left: 40px;
+        text-align: center;
+        margin-bottom: 140px;
+    }
+
+    .adventure .levo .img {
+        height: 300px;
+        width: 300px;
+        left: -10%;
+        bottom: 190px;
+    }
+
+    .adventure .container .pravo img {
+        width: 0;
+    }
+
+    main .adventure .btn2 button {
+        margin-top: 0px;
+        font-size: 10px;
+        margin-left: 90px;
+        width: 100%;
+    }
+
+
+    .section-life .container .h4{
+        font-size: 20px;
+        margin-top: 200px;
+    }
+
+    .section-life .container .p{
+        font-size: 10px;
+        text-align: center;
+        margin-left: 20px !important;
+    }
+
+    .section-life .container .button img{
+        display: none;
+    }
+
+    .section-life .container .kubs2 img{
+        width: 90%;
+        height: 90%;
+        margin-left: 20px;
+        margin-top: -70px;
+    }
+
+    .section-life .container .kubs img{
+        display: none;
+    }
+    main .section-life{
+        height: 700px;
+    }
+
+
+
+    .section-trav .container{
+        margin-top: 80px;
+    }
+
+    .section-trav .container .txt img{
+        width: 100px;
+        margin-left: 100px;
+    }
+
+    .section-trav .container .txt h4{
+        text-align: center;
+        font-size: 20px; 
+    }
+
+    .section-trav .container .txt h5{
+        text-align: center;
+        font-size: 15px; 
+    }
+
+    .section-trav .container .txt p{
+        text-align: center;
+        font-size: 12px; 
+    }
+
+    .section-trav .photo {
+        display: grid;
+        grid-template-columns: repeat(2, 132px);
+        grid-template-rows: repeat(4, 132px);
+        gap: 20px;
+        padding: 50px 0;
+        margin-left: 10px;
+    }
+
+    .section-trav .photo .foto:nth-child(1) {
+        background-image: url(../img/Rectangle\ 79.png);
+        background-size: cover;
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-column-end: 2;
+    }
+
+    .section-trav .photo .foto:nth-child(2) {
+        background-image: url(../img/Rectangle\ 82.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-row-end: 2;
+        grid-column-end: 1;
+    }
+
+    .section-trav .photo .foto:nth-child(3) {
+        background-image: url(../img/Rectangle\ 81.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-row-end: 5;
+        grid-column-end: 3;
+    }
+
+    .section-trav .photo .foto:nth-child(4) {
+        background-image: url(../img/Rectangle\ 80.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-row-end: 3;
+        grid-column-end: 1;
+    }
+
+    .section-trav .photo .foto:nth-child(5) {
+        background-image: url(../img/Rectangle\ 83.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-row-end: 4;
+        grid-column-end: 2;
+    }
+
+    .section-trav .photo .foto:nth-child(6) {
+        background-image: url(../img/Rectangle\ 84.png);
+        background-size: cover;
+        background-position: center;
+        grid-row-start: 3;
+        grid-column-start: 2;
+        grid-row-end: 4;
+        grid-column-end: 3;
+    }
+
+    .section-trav .container button{
+        font-size: 10px;
+        width: 150px;
+        height: 40px;
+    }
+
+
+
+    .section-turist .container{
+        border: 0;
+        width: 320px;
+    }
+
+    .section-turist .container .road{
+        font-size: 20px;
+    }
+
+    .section-turist .container .welcome{
+        width: 110px;
+    }
+
+    .section-turist .container .ulti{
+        font-size: 10px;
+    }
+
+    .section-turist .container .data{
+        flex-direction: column;
+        margin-left: 20px;
+        width: 320px;
+    }
+
+    .section-turist .container .data .card{
+        display: flex;
+        justify-content: start;
+    }
+
+    .section-turist .container .data .up{
+        font-size: 20px;
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        width: 320px;
+        margin: 0 !important;
+    }
+
+    .section-turist .container .data .card .chislo{
+        font-size: 50px;
+    }
+
+    .section-turist .container .data .up .spisok{
+        width: 320px !important;
+    }
+
+    .section-turist .container .data .card vv .mon{
+        font-size: 18px;
+    }
+
+    .section-turist .container .data .card vv .merop{
+        font-size: 20px;
+    }
+
+    .section-turist .container .buton{
+        font-size: 10px;
+        width: 150px;
+        height: 40px;
+    }
+
+
+    .section-foot .container .one{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-foot .container .one .card p{
+        white-space: nowrap;
+        margin: 8px !important;
+    }
+
+    .section-foot .container .one .card h5{
+        text-align: center;
+        margin-top: 20px;
+    }
 }
