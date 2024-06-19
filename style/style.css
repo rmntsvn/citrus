@@ -189,19 +189,21 @@ main .adventure .container {
 
 .adventure .container .pravo img {
     width: 100%;
+    margin-left: 100px;
 }
 
 .adventure .levo h4 {
     font-size: 24px;
     font-family: 'Lato';
     font-weight: 600;
-    margin-left: 20px;
+    margin-left: 190px;
 }
 
 .adventure .levo h2 {
     font-size: 60px;
     font-family: 'Merriweather';
     font-weight: 900;
+    margin-left: 190px;
 }
 
 .adventure .levo p {
@@ -212,6 +214,7 @@ main .adventure .container {
     width: 75%;
     margin-bottom: 30px;
     margin-top: 8%;
+    margin-left: 190px;
 }
 
 main .adventure .btn2 button {
@@ -229,6 +232,7 @@ main .adventure .btn2 button {
     background-size: 200% 100%;
     background-position: bottom left;
     transition: all .7s ease-out;
+    margin-left: 190px;
 }
 
 main .adventure .btn2 button:hover {
@@ -245,7 +249,7 @@ main .adventure .btn2 button:hover {
     height: 600px;
     width: 720px;
     position: absolute;
-    left: -200px;
+    left: -1px;
     bottom: 130px;
 }
 
@@ -555,27 +559,44 @@ main .adventure .btn2 button:hover {
     margin-left: 528px;
     margin-bottom: 10px;
 }
-.section-form .container .nametel{
-    display: flex;
-    justify-content: space-between;
-    width: calc(100%/2.2);
-    margin-bottom: 15px;
-}
-.section-form .container .nametel h3{
+.section-form .container .name h3{
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 5px;
 }
-.section-form .container .nametel input{
-    width: 250px;
+.section-form .container .name input{
+    width: 100%;
     height: 54px;
     background: none;
     border-radius: 9px;
     border: 1px solid rgb(216, 216, 216);
     text-indent: 10px;
+    margin-bottom: 10px;
 }
+.section-form .container .tel h3{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.section-form .container .tel input{
+    width: 100%;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+    margin-bottom: 10px;
+}
+
 .section-form .container .em{
+    width: calc(100%/2.2);
+}
+.section-form .container .name{
+    width: calc(100%/2.2);
+}
+.section-form .container .tel{
     width: calc(100%/2.2);
 }
 .section-form .container .em h3{
