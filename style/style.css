@@ -756,7 +756,7 @@ main .adventure .btn2 button:hover {
     }
     .section-shapka .container .buton-img button{
         background: none;
-        margin-right: 230px;
+        margin-left: -650px;
     }
     .section-shapka .cyprus .text h1{
         font-size: 40px; 
@@ -781,6 +781,7 @@ main .adventure .btn2 button:hover {
         width: 300px !important;
         height: 300px !important; 
         margin-left: 0px !important;
+        
     }
 
     header .container .cyprus{
@@ -790,28 +791,28 @@ main .adventure .btn2 button:hover {
 
     .adventure .levo h4 {
         font-size: 12px;
-        margin-left: 70px;
+        margin-left: 120px;
         text-align: center;
     }
 
     .adventure .levo h2 {
         font-size: 30px;
-        margin-left: 70px;
+        margin-left: 75px;
         text-align: center;
     }
 
     .adventure .levo p {
         font-size: 10px;
         width: 160%;
-        margin-left: 40px;
+        margin-left: 50px;
         text-align: center;
         margin-bottom: 140px;
     }
 
     .adventure .levo .img {
-        height: 300px;
-        width: 300px;
-        left: -10%;
+        height: 320px;
+        width: 320px;
+        left: -1%;
         bottom: 190px;
     }
 
@@ -820,13 +821,17 @@ main .adventure .btn2 button:hover {
     }
 
     main .adventure .btn2 button {
-        margin-top: 0px;
+        margin-top: 30px;
         font-size: 10px;
         margin-left: 90px;
         width: 100%;
     }
 
-
+    .section-life{
+        background-image: url(../img/2\ фон.jfif);
+        width: 320px;
+        height: 600px;
+    }
     .section-life .container .h4{
         font-size: 20px;
         margin-top: 200px;
@@ -835,27 +840,36 @@ main .adventure .btn2 button:hover {
     .section-life .container .p{
         font-size: 10px;
         text-align: center;
-        margin-left: 20px !important;
+        margin-left: 30px !important;
     }
 
     .section-life .container .button img{
         display: none;
     }
 
+
     .section-life .container .kubs2 img{
         width: 90%;
         height: 90%;
         margin-left: 20px;
-        margin-top: -70px;
+        margin-top: -100px;
     }
 
     .section-life .container .kubs img{
         display: none;
     }
-    main .section-life{
-        height: 700px;
-    }
+    .section-life .container .text h4{
+        font-size: 20px;
+        margin-top: 50px;
 
+    }
+    .section-life .container .text p{
+        margin-bottom: -10px !important;
+        font-size: 13px;
+    }
+    .section-shapka .container .navitbar{
+        width: 200px;
+    }
 
 
     .section-trav .container{
@@ -868,13 +882,14 @@ main .adventure .btn2 button:hover {
     }
 
     .section-trav .container .txt h4{
-        text-align: center;
-        font-size: 20px; 
+        text-align:left;
+        margin-left: 0;
+        font-size: 20px
     }
 
     .section-trav .container .txt h5{
         text-align: center;
-        font-size: 15px; 
+        font-size: 12px; 
     }
 
     .section-trav .container .txt p{
@@ -883,94 +898,102 @@ main .adventure .btn2 button:hover {
     }
 
     .section-trav .photo {
-        display: grid;
-        grid-template-columns: repeat(2, 132px);
-        grid-template-rows: repeat(4, 132px);
-        gap: 20px;
-        padding: 50px 0;
-        margin-left: 10px;
+        display: grid !important;
+        grid-template-rows: repeat(4, 132px) !important;
+        grid-template-columns: repeat(2, 132px) !important;
+        padding: 10px 0 !important;
+        margin-left: 10px !important;
+        gap: 20px !important;
+
+        
     }
 
     .section-trav .photo .foto:nth-child(1) {
-        background-image: url(../img/Rectangle\ 79.png);
-        background-size: cover;
-        grid-row-start: 1;
-        grid-column-start: 2;
-        grid-row-end: 3;
-        grid-column-end: 2;
+        background-image: url(../img/Rectangle\ 79.png)!important;
+        background-size: cover!important;
+        grid-row-start: 1!important;
+        grid-column-start: 2!important;
+        grid-row-end: 3!important;
+        grid-column-end: 2!important;
     }
 
     .section-trav .photo .foto:nth-child(2) {
-        background-image: url(../img/Rectangle\ 82.png);
-        background-size: cover;
-        background-position: center;
-        grid-row-start: 1;
-        grid-column-start: 1;
-        grid-row-end: 2;
-        grid-column-end: 1;
+        background-image: url(../img/Rectangle\ 82.png)!important;
+        background-size: cover!important;
+        background-position: center!important;
+        grid-row-start: 1!important;
+        grid-column-start: 1!important;
+        grid-row-end: 2!important;
+        grid-column-end: 1!important;
     }
 
     .section-trav .photo .foto:nth-child(3) {
-        background-image: url(../img/Rectangle\ 81.png);
-        background-size: cover;
+        background-image: url(../img/Rectangle\ 81.png)!important;
+        background-size: cover!important;
         background-position: center;
-        grid-row-start: 4;
-        grid-column-start: 1;
-        grid-row-end: 5;
-        grid-column-end: 3;
+        grid-row-start: 4!important;
+        grid-column-start: 1!important;
+        grid-row-end: 5!important;
+        grid-column-end: 3!important;
     }
 
     .section-trav .photo .foto:nth-child(4) {
-        background-image: url(../img/Rectangle\ 80.png);
-        background-size: cover;
-        background-position: center;
-        grid-row-start: 2;
-        grid-column-start: 1;
-        grid-row-end: 3;
-        grid-column-end: 1;
+        background-image: url(../img/Rectangle\ 80.png)!important;
+        background-size: cover!important;
+        background-position: center!important;
+        grid-row-start: 2!important;
+        grid-column-start: 1!important;
+        grid-row-end: 3!important;
+        grid-column-end: 1!important;
     }
 
     .section-trav .photo .foto:nth-child(5) {
-        background-image: url(../img/Rectangle\ 83.png);
-        background-size: cover;
-        background-position: center;
-        grid-row-start: 3;
-        grid-column-start: 1;
-        grid-row-end: 4;
-        grid-column-end: 2;
+        background-image: url(../img/Rectangle\ 83.png)!important;
+        background-size: cover!important;
+        background-position: center!important;
+        grid-row-start: 3!important;
+        grid-column-start: 1!important;
+        grid-row-end: 4!important;
+        grid-column-end: 2!important;
     }
 
     .section-trav .photo .foto:nth-child(6) {
-        background-image: url(../img/Rectangle\ 84.png);
-        background-size: cover;
-        background-position: center;
-        grid-row-start: 3;
-        grid-column-start: 2;
-        grid-row-end: 4;
-        grid-column-end: 3;
+        background-image: url(../img/Rectangle\ 84.png)!important;
+        background-size: cover!important;
+        background-position: center!important;
+        grid-row-start: 3!important;
+        grid-column-start: 2!important;
+        grid-row-end: 4!important;
+        grid-column-end: 3!important;
     }
 
     .section-trav .container button{
-        font-size: 10px;
+        font-size: 10px !important;
         width: 150px;
-        height: 40px;
+        height: 50px;
+        margin-left: -80px;
     }
 
 
 
     .section-turist .container{
-        border: 0;
-        width: 320px;
+        width: 310px;
     }
 
     .section-turist .container .road{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .section-turist .container .welcome{
         width: 110px;
     }
 
+    .section-turist .container .data .upcom {
+        text-align: center;
+        margin-left: 1px;
+        font-size: 40px;
+        width: 300px;
+    }
     .section-turist .container .ulti{
         font-size: 10px;
     }
@@ -984,6 +1007,7 @@ main .adventure .btn2 button:hover {
     .section-turist .container .data .card{
         display: flex;
         justify-content: start;
+        width: 300px;
     }
 
     .section-turist .container .data .up{
@@ -996,19 +1020,32 @@ main .adventure .btn2 button:hover {
     }
 
     .section-turist .container .data .card .chislo{
-        font-size: 50px;
+        font-size: 35px;
+        margin-right: 20px;
+        margin-left: 30px;
     }
-
-    .section-turist .container .data .up .spisok{
-        width: 320px !important;
+    .section-form .container .text img{
+        margin-left: 90px;
+        width: 120px 
+    }
+    .section-form .container .text h2{
+        font-size: 40px;
+    }
+    .section-form .container .buton{
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .section-turist .container .data .upcom .spisok{
+        width: 300px !important;
     }
 
     .section-turist .container .data .card vv .mon{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .section-turist .container .data .card vv .merop{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .section-turist .container .buton{
@@ -1019,18 +1056,46 @@ main .adventure .btn2 button:hover {
 
 
     .section-foot .container .one{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display: flex;
+        flex-direction: row;
     }
 
     .section-foot .container .one .card p{
         white-space: nowrap;
-        margin: 8px !important;
+        margin-bottom: 8px !important;
+        font-size: 12px;
     }
 
     .section-foot .container .one .card h5{
-        text-align: center;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .section-foot .container .one .carts .card{
+        margin-left: 160px;
+    }
+    .section-foot .container .one .logotip img{
+        width: 100px;
+        margin-left: 60px;
+    }
+    .section-foot .container .one .carts{
+        margin-left: -100px;
+    }
+    .section-foot .container .two .sska img{
+        width: 20%;
+        margin-bottom: 60px;
         margin-top: 20px;
     }
+    .section-foot .container .two h5{
+        font-size: 12px;
+    }
+    .section-foot .container .two p{
+        font-size: 12px;
+    }
+    .section-turist .container .data .spisok{
+        width: 300px !important;
+    }
+    .section-turist .container .data{
+        width: 300px
+    }
+
 }
